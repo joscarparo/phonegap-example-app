@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="my.js">
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h3 id="top">
+                    iFuck
+                </h3>
+            </div>
+            <div data-role="content">
+            	
+                <h2>
+                    Welcome
+                </h2>
+                
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <label for="searchinput1">
+                        </label>
+                        <input name="" id="searchinput1" placeholder="" value="" type="search" />
+                    </fieldset>
+                </div>
+                
+                <ul id="myContent" data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-theme="b">
+                        <a href="#page_sobre" data-transition="slide">
+                            Sobre
+                        </a>
+                    </li>
+                    <li data-theme="b">
+                        <a href="#page_produtos" data-transition="slide">
+                            Produtos
+                            <span class="ui-li-count">
+                                80
+                            </span>
+                        </a>
+                    </li>
+                    <li data-theme="b">
+                        <a href="#page_noticias" data-transition="slide">
+                            Notícias
+                            <span class="ui-li-count">
+                                27
+                            </span>
+                        </a>
+                    </li>
+                    <li data-theme="b">
+                        <a href="#page_informacoes" data-transition="slide">
+                            Informações
+                        </a>
+                    </li>
+                </ul>                
+            </div>
+            
+            <div id="myFooter" data-theme="a" data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="a" data-icon="home" class="ui-btn-active ui-state-persist">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page2" data-theme="a" data-icon="search">
+                                Onde?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page3" data-theme="a" data-icon="info">
+                                Mensagens
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h4>
+                    © 2012 iFuck.
+                </h4>
+            </div>
+            
+        </div>
+        
+        <!-- Onde? -->
+        <div data-role="page" id="page2">
+            <div data-theme="a" data-role="header">
+                <h3 id="top">
+                    iFuck • Onde?
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="turn" data-theme="a" data-icon="back" data-iconpos="left" class="ui-btn-left">Voltar</a>
+            </div>
+            <div data-role="content">
+                
+                <h1>Onde Encontrar</h1>
+                <h3>mapa...</h3>
+                
+            </div>            
+            <div id="myFooter" data-theme="a" data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="a" data-icon="home">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page2" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
+                                Onde?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page3" data-theme="a" data-icon="info">
+                                Mensagens
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h4>
+                    © 2012 iFuck.
+                </h4>
+            </div>
+        </div>
+        
+        <!-- Mensagens? -->
+        <div data-role="page" id="page3">
+            <div data-theme="a" data-role="header">
+                <h3 id="top">
+                    iFuck • Mensagens
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="turn" data-theme="a" data-icon="back" data-iconpos="left" class="ui-btn-left">Voltar</a>
+            </div>
+            <div data-role="content">
+                <h1>Mensagens</h1>
+                <h3>...</h3>
+            </div>
+            <div id="myFooter" data-theme="a" data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="a" data-icon="home">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page2" data-theme="a" data-icon="search">
+                                Onde?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page3" data-theme="a" data-icon="info" class="ui-btn-active ui-state-persist">
+                                Mensagens
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h4>
+                    © 2012 iFuck.
+                </h4>
+            </div>
+            
+        </div>
+        
+        <!-- Sobre -->
+        <div data-role="page" id="page_sobre">
+            <div data-theme="a" data-role="header">
+                <h3 id="top">
+                    iFuck • Sobre
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="turn" data-theme="a" data-icon="back" data-iconpos="left" class="ui-btn-left">Voltar</a>
+            </div>
+            <div data-role="content">
+                <h2>
+                    Sobre
+                </h2>
+                <div style="">
+                    <img style="width: 288px; height: px" src="http://www.solopropaganda.com.br/_files/digital/121/thumb.jpg" />
+                </div>
+                <h5>
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                </h5>
+            </div>
+        </div>
+        
+        <!-- Produtos -->
+        <div data-role="page" id="page_produtos">
+            <div data-theme="a" data-role="header">
+                <h3 id="top">
+                    iFuck • Produtos
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="turn" data-theme="a" data-icon="back" data-iconpos="left" class="ui-btn-left">Voltar</a>
+            </div>
+            <div data-role="content">
+                <h2>
+                    Produtos
+                </h2>
+                <div style="">
+                    <img style="width: 288px; height: px" src="http://www.solopropaganda.com.br/_files/digital/121/thumb.jpg" />
+                </div>
+                <h5>
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                </h5>
+            </div>
+        </div>
+        
+        <!-- Notícias -->
+        <div data-role="page" id="page_noticias">
+            <div data-theme="a" data-role="header">
+                <h3 id="top">
+                    iFuck • Notícias
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="turn" data-theme="a" data-icon="back" data-iconpos="left" class="ui-btn-left">Voltar</a>
+            </div>
+            <div data-role="content">
+                <h2>
+                    Notícias
+                </h2>
+                <div style="">
+                    <img style="width: 288px; height: px" src="http://www.solopropaganda.com.br/_files/digital/121/thumb.jpg" />
+                </div>
+                <h5>
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                </h5>
+            </div>
+        </div>
+        
+        <!-- Informações -->
+        <div data-role="page" id="page_informacoes">
+            <div data-theme="a" data-role="header">
+                <h3 id="top">
+                    iFuck • Informações
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="turn" data-theme="a" data-icon="back" data-iconpos="left" class="ui-btn-left">Voltar</a>
+            </div>
+            <div data-role="content">
+                <h2>
+                    Informações
+                </h2>
+                <div style="">
+                    <img style="width: 288px; height: px" src="http://www.solopropaganda.com.br/_files/digital/121/thumb.jpg" />
+                </div>
+                <h5>
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                </h5>
+            </div>
+        </div>
+                
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>
